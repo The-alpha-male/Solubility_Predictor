@@ -30,7 +30,7 @@ To run this project, you'll need Python and several libraries. Follow the steps 
 3. Open the Jupyter Notebook ```main.ipynb```
 
 ## Data
-The data used in this model was obtained from Data Pro
+The data used in this model was obtained from Data Professor's [github page](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv).
 
 
 ## Usage
