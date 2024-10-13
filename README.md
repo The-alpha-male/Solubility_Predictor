@@ -32,6 +32,17 @@ To run this project, you'll need Python and several libraries. Follow the steps 
 ## Data
 The data used in this model was obtained from Data Professor's [github page](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv).
 
+### Dataset Description 
+The dataset is used for predicting the aqueous solubility of compounds. It contains various molecular descriptors for a set of chemical compounds, which can be used in machine learning models to predict the solubility. Below is the kind of data it typically contains:
+
+   1. Molecular Descriptors: These are numerical values representing different properties of each compound. Common molecular descriptors include:
+
+      - Molecular weight: The weight of a molecule in atomic mass units.
+      - LogP: A measure of a compound’s hydrophobicity (how well it dissolves in fats vs. water).
+      - Number of hydrogen bond donors and acceptors: Reflects how the molecule interacts with water molecules and can affect solubility.
+      - Topological polar surface area (TPSA): Indicates the polar region of a molecule, which relates to drug transport properties, including solubility.
+        
+   2. Compound Solubility: This is the target variable that the dataset is trying to predict. It is presented in terms of log solubility, which measures how much of a substance can dissolve in water.
 
 ## Usage
 1. Open the notebook in Jupyter using:
