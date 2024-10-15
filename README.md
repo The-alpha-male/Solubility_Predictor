@@ -1,4 +1,4 @@
-# Project Title: **Regression Analysis for Experimental Data**
+# Solubility_Predictor using Machine Learning
 
 ## Introduction
 
